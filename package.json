@@ -1,0 +1,27 @@
+{
+  "name": "precariapp-v2-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "DetectiveAzul",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "koa-logger": "^3.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
